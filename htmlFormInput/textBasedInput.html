@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text based input fields</title>
+</head>
+
+<body>
+    <form>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" required placeholder="Enter your name" name='name' />
+        </div>
+        <br>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" required placeholder="Enter your email" name="email" />
+        </div>
+        <br>
+
+        <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" required placeholder="Enter your password" name="password"
+                minlength="3" maxlength="8" />
+        </div>
+        <br>
+        <div>
+            <!-- <input type="submit" value="Submit" /> -->
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
