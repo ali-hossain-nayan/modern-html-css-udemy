@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Additional Inputs Elements</title>
+</head>
+
+<body>
+    <!-- Selector -->
+    <form>
+        <label for="product">Products</label>
+        <br><br>
+        <select name="product" id="product">
+            <option value="iphone">Iphone</option>
+            <option value="samsung">Samsung</option>
+            <option value="google">Google-Pixel</option>
+            <option value="redmi">Redmi</option>
+        </select>
+        <br>
+        <label for="message">Message</label>
+        <br>
+        <textarea name="message" id="message" placeholder="Enter your message" rows="5" cols="50"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- checkbox -->
+    <form>
+        <label for="movies"></label>
+        <input type="checkbox" name="movies" id="movies" value="movies" />Batman
+        <br>
+        <label for="movies"></label>
+        <input type="checkbox" name="movies" id="movies" value="movies" />Spiderman
+        <br>
+        <label for="movies"></label>
+        <input type="checkbox" checked name="movies" id="movies" value="movies" />Superman
+    </form>
+
+    <!-- radio -->
+
+    <form>
+        <label for="small"></label>
+        <input type="radio" name="size" id="small" value="small">Small
+        <label for="medium"></label>
+        <input type="radio" name="size" id="medium" value="small">Medium
+        <label for="small"></label>
+        <input type="radio" name="size" id="large" value="small">Large
+    </form>
+</body>
+
+</html>
