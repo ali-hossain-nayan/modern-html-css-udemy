@@ -1,0 +1,89 @@
+.card1 {
+  background: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 200px;
+  align-item: center;
+  width: 400px;
+}
+.card1 h2 {
+  color: red;
+  font-size: 35px;
+}
+.card1 p {
+  font-size: 20px;
+}
+.card1 button {
+  background: red;
+  padding: 8px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.card1 button:hover {
+  background: blue;
+}
+
+
+
+
+
+
+.card2 {
+  background: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 200px;
+  align-item: center;
+  width: 400px;
+}
+.card2 h2 {
+  color: blue;
+  font-size: 35px;
+}
+.card2 p {
+  font-size: 20px;
+}
+.card2 button {
+  background: blue;
+  padding: 8px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.card2 button:hover {
+  background: red;
+}
+
+
+
+
+
+.card3 {
+  background: white;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 200px;
+  align-item: center;
+  width: 400px;
+}
+.card3 h2 {
+  color: green;
+  font-size: 35px;
+}
+.card3 p {
+  font-size: 20px;
+}
+.card3 button {
+  background: green;
+  padding: 8px;
+  margin-bottom: 10px;
+  color: white;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.card3 button:hover {
+  background: yellow;
+}
