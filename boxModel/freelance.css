@@ -1,0 +1,39 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  box-shadow: border-box;
+}
+
+.container {
+  text-align: center;
+  margin-top: 60px;
+  background: black;
+  color: white;
+}
+
+.card h1 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.card {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.form-item {
+}
+.form-item input {
+  padding: 8px;
+  margin-bottom: 10px;
+  outline-focus:none
+}
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  background: purple;
+  color: white;
+  cursor: pointer;
+  border-radius:12px;
+}
+button:hover {
+  background: blue;
+}
