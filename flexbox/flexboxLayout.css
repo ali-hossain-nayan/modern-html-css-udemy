@@ -1,0 +1,75 @@
+/* Navbar */
+.navbar {
+  display: flex;
+  align-items: center; /* FIXED */
+  justify-content: flex-start;
+  gap: 30px;
+  margin-top: 20px;
+  background: gray;
+  padding: 20px 40px;
+  font-size: 24px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; /* FIXED */
+  padding: 40px;
+}
+
+/* Description */
+.description h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.description p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+/* Recent Posts */
+.recent-posts {
+  width: 250px;
+}
+
+.recent-posts h1 {
+  background: coral;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+}
+
+/* Posts List */
+.posts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: gray;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.posts a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.posts a:hover {
+  text-decoration: underline;
+}
