@@ -1,8 +1,33 @@
+body {
+  font-family: "Open+Sans", sans-serif;
+  /* background:linear-gradient(to bottom,lightblue,darkblue); */
+}
 .external {
   color: red;
   font-size: 40px;
 }
 
 p {
-  color: blue;
+  /* color: blue !important;  */
+  /* higher order */
+}
+.styling a{
+  text-decoration: none;
+}
+
+.styling a:hover{
+  color:red;
+
+}
+.styling a:active{
+  background:blue;
+
+}
+.styling a:focus{
+  background:green;
+
+}
+.styling a:visited{
+  background:yellow;
+
 }
