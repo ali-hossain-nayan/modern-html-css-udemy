@@ -1,0 +1,15 @@
+.flex-container {
+  display: flex;
+  background: #ccc;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:space-between;
+  align-item:center;
+  /* flex-direction:column; */
+}
+.flex-box {
+  height: 200px;
+  width: 200px;
+  background: red;
+  border: 1px solid green;
+}
