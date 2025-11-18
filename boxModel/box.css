@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  color: red;
+}
+.box {
+  background: purple;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid green;
+  height:200px;
+  width:200px;
+}
+
+.padd{
+  padding:20px;
+  background:blue;
+  color:white;
+}
+.margin{
+  margin:40px;
+  background:blue;
+  color:white;
+  padding:30px;
+
+}
