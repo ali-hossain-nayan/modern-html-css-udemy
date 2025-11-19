@@ -1,0 +1,24 @@
+:root {
+  --primary-color: green;
+  --container-width:1000px;
+}
+.container {
+  display: flex;
+}
+.box1 {
+  background: var(--primary-color);
+}
+
+.box-section{
+    background:#000;
+    height:200px;
+    display:flex;
+    width: var(--container-width);
+}
+.item{
+    height:calc(100%-10px);
+    min-width: calc(calc(100% / 5) - 20px);
+    background:coral;
+    margin:10px;
+
+}
