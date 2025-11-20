@@ -1,0 +1,87 @@
+.formi div {
+  display: flex;
+  gap: 20px;
+}
+
+input[type="email"] {
+  border-color: blue;
+}
+input[name="password"] {
+  border-color: yellow;
+}
+input[type="text"][id="name"] {
+  border-color: yellow;
+}
+
+input [required] {
+  font-size: 24px;
+}
+a[href$=".com"] {
+  color: blue;
+}
+
+/* only direct paragraph container child */
+.container > p {
+  margin-top: 20px;
+}
+/* same as links or any other tags */
+
+/* immidiate siblings link after h1 */
+.container h1 + a {
+  color: blue;
+}
+/* all links that are siblings link after h1 */
+.container h1 ~ a {
+  color: red;
+}
+
+/* pseudo elements */
+p::first-letter {
+  color: yellow;
+  padding: 20px;
+}
+p::first-line {
+  color: blue;
+  padding: 20px;
+}
+p::selection {
+  color: green;
+}
+input::placeholder {
+  color: purple;
+}
+input::file-selector-button {
+  color: purple;
+}
+
+ul li:first-child {
+  background: lightblue;
+}
+ul li:last-child {
+  background: blue;
+}
+ul li:nth-child(even) {
+  background: blue;
+}
+ul li:nth-child(odd) {
+  background: blue;
+}
+ul li:nth-child(7) {
+  background: blue;
+}
+h2::before {
+  content: "welcome";
+  background: red;
+}
+label.is-required::after {
+  content: "*";
+  color: red;
+}
+h2::after {
+  content: "welcome";
+  background: red;
+}
+label.is-required::before {
+  content: "*";
+  color: red;
+}
