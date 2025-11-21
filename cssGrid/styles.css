@@ -1,0 +1,21 @@
+.item {
+  background-color: blue;
+  padding: 16px;
+  border: 1px solid #444;
+  text-align: center;
+}
+
+.item-grid {
+  display: grid;
+  /* grid-template-columns: 100px 100px 100px; */
+  /* grid-template-columns: 33.3% 33.3% 33.3%; */
+  grid-template-columns: 1fr 2fr 2fr;
+  gap: 20px;
+  justify-item: center;
+}
+/* column goes vertical rows goes horizontal  */
+.item-grid1 {
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+}
